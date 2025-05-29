@@ -1,0 +1,24 @@
+# How To Convert An HTML File To PDF With Firefox
+
+This tutorial covers how to use Firefox to convert an HTML file to a PDF. It is done manually.
+
+## Steps
+
+### Installing Firefox On Debian 12
+
+- In terminal type "sudo apt-get install firefox-esr". This will install the ESR version of Firefox.
+
+### Convert HTML to PDF
+
+- In your file-manager, browse to the HTML file, right-click on it, choose "Open With", choose "Open with another application", select Firefox, and click "Open". Depending on your file-manager of choice, the options may be listed slightly differently.
+- In Firefox, go to "File", choose "Print", under "Destination" choose "Save to PDF", and click "Save".
+
+## Notes
+
+- This tutorial only covers installation of Firefox ESR on Debian 12.
+- This tutorial was tested on Debian 12 AMD64 XFCE.
+- When printing to PDF you may want to adjust the margin options to zero, and the background colour settings to preserve background colours.
+
+## Meta
+
+Author: James Daniel Marrs Ritchey

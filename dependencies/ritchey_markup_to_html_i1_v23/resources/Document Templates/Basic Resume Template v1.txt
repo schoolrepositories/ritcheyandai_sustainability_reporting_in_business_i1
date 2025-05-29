@@ -1,0 +1,69 @@
+# Resume
+
+---
+
+## Contact Information
+
+Firstname Lastname | 0 (000) 000-0000 | firstlast@example.com
+ 
+## Summary & Objective
+
+This is a summary, and objective statement.
+
+### Skills
+
+$skill | $skill | $skill | $skill | $skill | $skill | $skill | $skill | $skill | $skill
+
+## Links
+
+{Link 1}(https://example.com) | {Link 2}(https://example.com)
+
+## Education
+
+### $degree
+| $school ($city, $province, $country)
+| $date_issued
+
+## Work Experience
+
+### $job_title
+| $employer ($city, $province, $country)
+| $start_date - $end_date
+
+DETAILS:
+- $accomplishment
+- $accomplishemnt
+- $duty
+- $duty
+
+### $job_title
+| $employer ($city, $province, $country)
+| $start_date - $end_date
+
+DETAILS:
+- $accomplishment
+- $accomplishemnt
+- $duty
+- $duty
+
+## Licenses & Certifications
+
+### $license
+| $issuer ($city, $province, $country)
+| $date_issued (ISSUED) - $date_expires (EXPIRES)
+
+### $certification
+| $issuer ($city, $province, $country)
+| $date_issued (ISSUED) - $date_expires (EXPIRES)
+
+## Professional Development
+
+Completed $x professional development courses, and $y programs from providers such as $provider, $provider, and $provider.
+ 
+### Highlighted Achievements
+
+PROVIDER:
+$course_name (Course) | $program_name (Program) | $course_name (Course)
+
+PROVIDER:
+$course_name (Course) | $program_name (Program) | $course_name (Course)

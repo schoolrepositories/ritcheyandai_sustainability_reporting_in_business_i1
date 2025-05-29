@@ -1,0 +1,29 @@
+Read NOTICE.md!!!
+
+# About
+
+NAME: Ritchey & AI Sustainability Reporting in Business
+VERSION: 0.1
+IMPLEMENTATION: 1
+LONG IDENTIFIER: Ritchey & AI Sustainability Reporting in Business i1 v0.1
+SHORT IDENTIFIER: R&AISRBi1v0.1
+AUTHOR: James Daniel Marrs Ritchey
+
+## Overview
+
+Ritchey & AI Sustainability Reporting in Business is the source material for an article. The exported article is stored in "/content/Sustainability Reporting in Business v0.1.pdf", but the build.php script can be used to rebuild the PDF from the source materials.
+
+## Licensing
+
+This project is hereby licensed under the Ritchey Permissive License v19.
+
+## History
+
+Releases:
+- Project started May, 2025.
+- Version 0.1 completed May 29, 2025.
+
+## Notes
+
+- The build script requires Chromium web browser to be installed, and accessible at the expected path.
+- There may be minor formatting/encoding issues in the article text.

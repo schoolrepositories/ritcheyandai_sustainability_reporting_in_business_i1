@@ -1,0 +1,1 @@
+This folder is used to store dependencies, which are developed by the project author(s), but are not developed as part of this project.

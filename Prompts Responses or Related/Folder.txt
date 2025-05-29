@@ -1,0 +1,1 @@
+This folder is used to save copies of prompts given to AI, responses recieved, and other related content. It may not be all inclusive, or organized.

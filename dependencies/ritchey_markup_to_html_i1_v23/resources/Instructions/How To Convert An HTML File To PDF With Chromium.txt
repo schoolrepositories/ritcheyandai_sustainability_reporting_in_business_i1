@@ -1,0 +1,22 @@
+# How To Convert An HTML File To PDF With Chromium
+
+This tutorial covers how to use Chromium to convert an HTML file to a PDF.
+
+## Steps
+
+### Installing Chromium On Debian 12
+
+- In terminal type, "sudo apt-get install chromium".
+
+### Convert HTML to PDF
+
+- In terminal type, "chromium --headless --print-to-pdf='/path/to/destination.pdf' '/path/to/source.html'
+
+## Notes
+
+- This tutorial only covers installation of Chromium on Debian 12.
+- This tutorial was tested on Debian 12 AMD64 XFCE.
+
+## Meta
+
+Author: James Daniel Marrs Ritchey

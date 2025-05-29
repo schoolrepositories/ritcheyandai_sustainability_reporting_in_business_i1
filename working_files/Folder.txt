@@ -1,0 +1,1 @@
+This folder is used to store project source content files, which are used to build a finished product.

@@ -1,0 +1,324 @@
+/* Set "preserve_empty_lines" to FALSE */
+
+/* Any imported fonts need to be declared at the top of the CSS document */
+
+/* Serif */
+ 
+body {
+	font-family: serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+/* Noto Serif. Source: https://fonts.google.com/noto/specimen/Noto+Serif/about */
+/*
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body {
+	font-family: 'Noto Serif', serif; 
+}
+*/
+
+/* Sans-serif */
+/* 
+body {
+	font-family: sans-serif; 
+}
+*/
+
+/* Noto Sans-Serif. Source: https://fonts.google.com/noto/specimen/Noto+Sans/about */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap');
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+*/
+
+/* Inclusive Sans. Source: https://fonts.google.com/specimen/Inclusive+Sans/about */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+body {
+	font-family: 'Inclusive Sans', sans-serif;
+}
+*/
+
+.page_heading {
+	display: none;
+}
+.page_footer {
+	display: none;
+}
+
+a:link {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:visited {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:active {
+  color: #072cf0;
+  text-decoration: underline;
+}
+
+.outter_h1 {
+	background-color: #FFFFFF;
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.inner_h1 {
+	font-size: 34px;
+	font-weight: bolder;
+	text-decoration: underline;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outter_h2 {
+	background-color: #FFFFFF;
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.inner_h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outter_default {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 16px;
+}
+.inner_default {
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outter_blockquote {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_blockquote {
+	background-color: #EEEEEE;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 16px; /* This is needed to preserve empty lines. It should match the font-size. */
+}
+.blockquote_wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.outter_blockquote_flag {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_blockquote_flag {
+	background-color: #EEEEEE;
+	height: 10px;
+	min-height: 10px;
+	max-height: 10px;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outter_blockmessage {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_blockmessage {
+	background-color: #F4E93F;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 16px; /* This is needed to preserve empty lines. It should match the font-size. */
+}
+.blockmessage_wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.outter_blockmessage_flag {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_blockmessage_flag {
+	background-color: #F4E93F;
+	height: 10px;
+	min-height: 10px;
+	max-height: 10px;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.field {
+	text-decoration: underline;
+	padding-right: 5px;
+	text-transform: capitalize;
+}
+.field:after {
+  content: ":";
+}
+.outter_f {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_f {
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fl_entry {
+	display: inline-block;
+	padding: 5px;
+	background-color: #CCCCCC;
+	margin-right: 10px;
+}
+.outter_fl {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inner_fl {
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outter_t {
+	display: none;
+}
+
+.outter_ll1 {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_ll1 {
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: capitalize;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inner_ll1::after {
+	content: ":";
+}
+.outter_ll2 {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_ll2 {
+	font-size: 16px;
+	font-weight: normal;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inner_ll2::after {
+	content: ":";
+}
+.inner_ll2 .list_dot {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.list_dot::before {
+	content: "\2022";
+}
+.inner_ll2 .list_value {
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.outter_le2 {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+.inner_le2 {
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inner_le2 .list_dot {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.outter_separator {
+	display: none;
+}
+
+.image {
+	display: inline-block;
+	max-width: 100%;
+	min-height: 50vh;
+	max-height: 100vh;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+[data-md5="outter_697a79fc42a84ecf965037be2441dbba"]{
+	background-color: #333333;
+	color: #FFFFFF;
+}

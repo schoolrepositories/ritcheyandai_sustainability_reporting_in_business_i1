@@ -1,0 +1,1 @@
+This folder is used to store files, which are imported into some aspect of the project, but do not store configuration values, are not databases, and are not scripts/code to be executed. Common examples include CSS files, and images.

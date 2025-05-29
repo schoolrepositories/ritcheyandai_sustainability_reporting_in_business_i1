@@ -1,0 +1,1 @@
+This folder is used to store code dependencies, which were developed specifically for this project, and are distributed as part of it.
